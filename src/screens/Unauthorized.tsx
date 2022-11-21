@@ -12,7 +12,7 @@ export default function Unauthorized({ navigation }: Props) {
       <Image source={bg} className="absolute" />
 
       <View className="bg-slate-900 space-y-4 rounded-md py-8 px-4 shadow-md w-full items-center shadow-yellow-400">
-        <Button onPress={() => alert("Logged in.")}>Log in</Button>
+        <Button onPress={() => navigation.replace("Home")}>Log in</Button>
 
         <Button type="secondary" onPress={() => alert("Register.")}>
           Sign up

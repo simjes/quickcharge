@@ -37,7 +37,7 @@ export const LinkButton = ({
   type = "primary",
   ...pressableProps
 }: Props) => (
-  <Pressable className={clsx("py-2 px-8 rounded-full")} {...pressableProps}>
+  <Pressable className="py-2 px-8 rounded-full" {...pressableProps}>
     <Text
       className={clsx(
         "font-bold",
